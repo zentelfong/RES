@@ -1,3 +1,6 @@
+language: cpp
 compiler:
-  - clang
-  - gcc
+    - gcc
+    - clang
+script:
+    - $CC -O3 res.cpp aes.c testRes.cpp -o test -lstdc++
