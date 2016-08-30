@@ -1,8 +1,7 @@
-// CAES.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// CAES.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
-#include <Windows.h>
 #include "res.h"
 
 
@@ -16,7 +15,7 @@ static unsigned char AES_enc_test[] =
 	0x96, 0x0D, 0x4C, 0xD3, 0x11, 0x8E, 0x60, 0x1A
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	srand(GetTickCount());
 	uint8_t buf[128];
